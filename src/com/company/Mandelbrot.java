@@ -117,7 +117,7 @@ public class Mandelbrot extends javax.swing.JFrame {
     private void panelMouseDragged(java.awt.event.MouseEvent evt) {
         Graphics g = panel.getGraphics();
 
-        g.setXORMode(Color.RED);
+        g.setXORMode(Color.ORANGE);
 
         g.drawRect(cx1, cy1, Math.abs(cx2 - cx1), Math.abs(cy2 - cy1));
 
